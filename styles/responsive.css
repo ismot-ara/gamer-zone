@@ -1,0 +1,26 @@
+/* Mobile Devices */
+@media screen and (max-width:576px) {
+    .header, .menu nav{
+        flex-direction: column;
+
+    }
+    .logo{
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .menu nav ul li {
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+}
+
+/* Tablet Device */
+@media screen and (min-width:576px) and (max-width:992px){
+    .header{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

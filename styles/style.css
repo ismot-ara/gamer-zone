@@ -1,0 +1,69 @@
+/* common shared styles */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #36bef8;
+  --secondary-color: #ff42a5;
+}
+
+/* Header style */
+header{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 30px 0;
+}
+.header {
+  max-width: 1440px;
+margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo h2 {
+  display: inline-block;
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.logo h2 span {
+  color: var(--secondary-color);
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.menu nav {
+  display: flex;
+  align-items: center;
+}
+.menu nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu nav ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.follow-btn{
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+padding: 18px 25px;
+display: flex;
+align-items: center;
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+border: 0;
+}
+.follow-btn img{
+    margin-left: 10px;
+}
