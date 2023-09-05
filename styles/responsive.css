@@ -1,5 +1,6 @@
 /* Mobile Devices */
 @media screen and (max-width:576px) {
+    /* Header responsive  */
     .header, .menu nav{
         flex-direction: column;
 
@@ -15,6 +16,26 @@
         margin-bottom: 20px;
         text-align: center;
       }
+    /* Banner Responsive */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-info h4 {
+        font-size: 20px;
+    }
+    .banner-info h1 {
+        font-size: 38px;
+    }
+    .banner-info ul li {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: lowercase;
+        list-style: none;
+        margin-bottom: 8px;
+    }
+
+    
+    
 }
 
 /* Tablet Device */
@@ -22,5 +43,13 @@
     .header{
         padding-left: 50px;
         padding-right: 50px;
+    }
+    .banner{
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 100px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
     }
 }

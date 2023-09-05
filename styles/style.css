@@ -10,16 +10,19 @@
   --primary-color: #36bef8;
   --secondary-color: #ff42a5;
 }
+img{
+  max-width: 100%;
+}
 
 /* Header style */
-header{
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 30px 0;
+header {
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
 }
 .header {
   max-width: 1440px;
-margin: 0px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
 }
@@ -32,7 +35,7 @@ margin: 0px auto;
   margin-left: 20px;
 }
 .logo h2 span {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 .logo {
   display: flex;
@@ -52,18 +55,69 @@ margin: 0px auto;
   font-size: 18px;
   font-weight: 500;
 }
-.follow-btn{
-    color: #3C354F;
-text-align: center;
-font-size: 18px;
-font-weight: 500;
-padding: 18px 25px;
-display: flex;
-align-items: center;
-border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-border: 0;
+.follow-btn {
+  color: #3c354f;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 18px 25px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: 0;
 }
-.follow-btn img{
-    margin-left: 10px;
+.follow-btn img {
+  margin-left: 10px;
+}
+/* Banner styles */
+.banner {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.banner-info h4 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-info h1 {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-info ul li {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  list-style: none;
+  margin-bottom: 15px;
+}
+.banner-info ul{
+  margin-bottom: 30px;
+}
+.btn-primary, .btn-secondary{
+  color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+  padding: 20px 40px;
+  border-radius: 48px;
+  border: 0;
+}
+.btn-primary{
+  background-color: var(--primary-color);
+  margin-right: 20px;
+}
+.btn-secondary{
+  background-color: var(--secondary-color);
 }
