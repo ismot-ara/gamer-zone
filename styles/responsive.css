@@ -42,8 +42,17 @@
      
         margin-left: 0px;
       }
-
-    
+/* Online */
+.online h3 {
+    font-size: 25px;
+}  
+.card-container{
+    flex-direction: column;
+    margin: 20px;
+}
+.card-img img{
+    width: 100%;
+}
     
 }
 
@@ -63,5 +72,9 @@
     }
     .about{
         padding: 50px;
+    }
+    .online{
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
