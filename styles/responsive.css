@@ -92,6 +92,16 @@
 .list-right {
     text-align: center;
 }
+/* Feature */
+.feature{
+    grid-template-columns:1fr;
+    padding: 20px;
+  }
+  .footer-list{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 /* Tablet Device */
@@ -121,4 +131,7 @@
     .career-left {
         padding-left: 20px;
     }
+    .feature{
+        grid-template-columns:repeat(3, 1fr);
+      }
 }
