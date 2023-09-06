@@ -73,6 +73,25 @@
     left: 0;
     bottom: -200px;
 }
+/* Career */
+.career-left {
+    padding-left: 0;
+}
+.career {
+    margin-top: 240px;
+}
+.career-container{
+    flex-direction: column;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.career-lists{
+    flex-direction: column;
+}
+.list-right {
+    text-align: center;
+}
 }
 
 /* Tablet Device */
@@ -98,5 +117,8 @@
     }
     .play-left p {
         margin-left: 50px;
+    }
+    .career-left {
+        padding-left: 20px;
     }
 }
